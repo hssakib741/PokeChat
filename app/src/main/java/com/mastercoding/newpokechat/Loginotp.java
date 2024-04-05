@@ -30,7 +30,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
-public class Loginotp extends AppCompatActivity {
+public class
+Loginotp extends AppCompatActivity {
 
     String phonenumber;
     String verificationcode;
