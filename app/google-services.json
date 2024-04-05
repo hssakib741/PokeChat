@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856798038642",
+    "project_id": "newpokechat",
+    "storage_bucket": "newpokechat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856798038642:android:5c2a695d568f1981c650eb",
+        "android_client_info": {
+          "package_name": "com.mastercoding.newpokechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnuDpsMHHhJlvu0o1W3E_mlxC85H8_YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
