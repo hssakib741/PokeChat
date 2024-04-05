@@ -218,7 +218,7 @@ public class ChatActivity extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
         String url="https://fcm.googleapis.com/fcm/send";
         RequestBody body=RequestBody.create(jsonObject.toString(),JSON);
-        Request request=new Request.Builder().url(url).post(body).header("Authorization","Bearer AAAAx30kinI:APA91bE_fsZbZOPaDtAEcR2qPW3oAdFCShAL8gyqF154zhF01MgICdSkCqs3RmRDbkSp-m8wlPmh6lNKUkk3qlE5RMT-nXCDTtENf0ViBsMsvdyBnsT0Vrb0pje9yzc9UcbXDNCHycCH")
+        Request request=new Request.Builder().url(url).post(body).header("Authorization","")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
